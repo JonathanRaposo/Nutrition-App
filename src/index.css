@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.AddFoodForm{
+  width: 350px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.AddFoodForm input {
+  margin: 10px auto;
+}
+.AddFoodForm button {
+  min-width: 80px;
+  padding: 6px 10px;
+  border: none;
+  background-color: #2121fe;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1em;
+}
+.SearchBar {
+  text-align: center;
+}
+.SearchBar input {
+  width: 500px;
+  margin-left: 10px;
+}
+.foodList-container{
+  width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+}
+.showForm-btn{
+  display: block;
+  min-width: 100px;
+  margin: 30px auto;
+  padding: 8px 10px;
+  background-color: #fff;
+  border: 2px solid #52c7ee;
+  color: #52c7ee;
+  font-size: 1em;
+  font-weight: 600;
+}
+#message {
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.5em;
+  color: red;
+}
